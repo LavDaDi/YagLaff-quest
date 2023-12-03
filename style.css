@@ -285,6 +285,46 @@ html,body{
     background: linear-gradient(0deg, #F0F0F0, #F0F0F0), #FFFFFF;
     color: #000000ab;
 }
+
+.modal {
+    position: fixed;
+    inset: 0;
+    backdrop-filter: blur(6px);
+    display: none;
+    cursor: pointer;
+    padding: 20px;
+    overflow-y: auto;
+}
+.modal__main {
+    position: relative;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.356) ;
+    margin: auto;
+    color: #FFF;
+    border-radius:60px ;
+    padding: 20px;
+    cursor: default;
+}
+
+.modal_title {
+    padding-bottom: 20px;
+
+}
+
+.modal__try_agan {
+    width: 195px;
+    height: 58px;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    background: #8983FC;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 30px;
+}
 /**Cетка адаптива**/
 
 @media(max-width: 530px){
