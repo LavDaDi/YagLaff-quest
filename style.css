@@ -374,8 +374,8 @@ html,body{
     }
 
     .map_block {
-        height: 238px;
-        width: 360px;
+        height: 212px;
+        width: 320px;
     }
 
     .task1{
@@ -404,7 +404,7 @@ html,body{
     }
 
     .progres_bar_qrs{
-        max-width: 390px;
+        max-width: 350px;
     }
 
     .home {
@@ -438,7 +438,7 @@ html,body{
     }
     
     .full_prograee_bar{
-        max-width: 390px;
+        max-width: 350px;
         margin: 22px auto 0px;
     }
 
@@ -468,6 +468,6 @@ html,body{
     }
 
     .img_logo_daun {
-        max-width: 260px;
+        max-width: 215px;
     }
 }
