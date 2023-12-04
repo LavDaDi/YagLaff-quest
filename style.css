@@ -90,7 +90,7 @@ html,body{
 
 .task_title {
     font-weight: bold;
-    font-size: 32px;
+    font-size: 26px;
 }
 
 .progres_bar {
@@ -251,16 +251,16 @@ html,body{
     font-size: 24px;
 }
 .block_text_ {
-    max-width: 350px;
-    padding: 40px 0 0 0;
+    max-width: 330px;
+    padding: 26px 0 0 0;
 }
 .text_title {
     font-weight: bold;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .input_phone {
-    width: 324px;
+    width: 285px;
     height: 31px;
     border: 2px solid #000000;
     border-radius: 30px;
@@ -280,7 +280,7 @@ html,body{
     text-align: left;
     margin-left: 20px;
     letter-spacing: -0.05em;
-    width: 285px;
+    width: 225px;
     height: 19px;
     background: linear-gradient(0deg, #F0F0F0, #F0F0F0), #FFFFFF;
     color: #000000ab;
@@ -325,6 +325,26 @@ html,body{
     z-index: 0;
     border-radius: 30px;
 }
+
+.modal2 {
+    position: fixed;
+    inset: 0;
+    backdrop-filter: blur(6px);
+    display: none;
+    cursor: pointer;
+    padding: 20px;
+    overflow-y: auto;
+}
+.modal__main2 {
+    position: relative;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.356) ;
+    margin: auto;
+    color: #FFF;
+    border-radius:60px ;
+    padding: 20px;
+    cursor: default;
+}
 /**Cетка адаптива**/
 
 @media(max-width: 530px){
@@ -349,13 +369,13 @@ html,body{
     }
 
     .main_tasks{
-        width: 385px;
-        height: 332px;
+        width: 345px;
+        height: 298px;
     }
 
     .map_block {
-        height: 238px;
-        width: 360px;
+        height: 212px;
+        width: 320px;
     }
 
     .task1{
@@ -384,7 +404,7 @@ html,body{
     }
 
     .progres_bar_qrs{
-        max-width: 390px;
+        max-width: 350px;
     }
 
     .home {
@@ -418,7 +438,7 @@ html,body{
     }
     
     .full_prograee_bar{
-        max-width: 390px;
+        max-width: 350px;
         margin: 22px auto 0px;
     }
 
@@ -430,6 +450,7 @@ html,body{
         width: 233px;
         height: 75px;
         font-size: 28px;    
+        margin: 0 20px 0 0 ;
     }
     
     .phone {
@@ -439,14 +460,14 @@ html,body{
     .rus {
         color: #FFF;
         font-weight: bold;
-        font-size: 18px;
+        font-size: 14px;
     }
     .numder_phone{
-        margin: 0 0 0 15px;
-        font-size: 16px;
+        margin: 0 0 0 10px;
+        font-size: 12px;
     }
 
     .img_logo_daun {
-        max-width: 260px;
+        max-width: 215px;
     }
 }

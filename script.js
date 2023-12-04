@@ -1,9 +1,11 @@
 const buttonElem = document.querySelector(".go");
 const qr1_t1_t = document.querySelector('.modal');
+const qr1_t1_f = document.querySelector('.modal2');
+
 
 go1.onclick = function() {
     var val = document.getElementById('input_phone_text').value;
-    if (val === 'Куранты' || val === 'куранты'){
+    if (val === inp || val === inp_m){
         qr1_t1_t.style.cssText = `
         display: flex;
         visibility = 'visible';
@@ -18,7 +20,11 @@ go1.onclick = function() {
     
   //  buttonElem.addEventListener('click', openModal);
     } else{
-        alert('ti lox')
-    }
+        qr1_t1_f.style.cssText = `
+        display: flex;
+        visibility = 'visible';
+        opacity = 1;
+        transition: opacity 300ms ease-in-out;
+    `}
     
 };
