@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru" style="background-color: #1B1B1D;">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YagLaff quest</title>
+    <script src="script.js" defer> 
+    </script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper" style="display: flex; flex-direction:column; justify-content: space-between;"> 
+        <header class="headder_block">
+            <div class="container" style="display: grid;">
+                <div class="logo_info">
+                    <img src="images/logo.png" class="img_logo">
+                    <img src="images/info.png" class="img_info">
+                </div>
+            </div>
+        </header>
+        <main class="main_block" >
+            <div class="container" style="display: contents;">
+                <div class="map_block">
+                    <p class="map_title" style="text-align: center;">Введите кодовое слово(ответ на прошлое задание)</p>
+                    <div class="input_phone" style="margin: 0px 0 0 14px; background-color: #F0F0F0;">
+                        <input type="text" name="phonee" placeholder="Введите текст..." class="input_phone_txt" id="input_phone_text">
+                    </div>
+                </div>
+            </div>
+        </main>
+        <div class="progres_bar">
+            <div class="container" >
+                <div class="button_go" >
+                    <button class="go" id="go1">Проверить</button>
+                </div>
+            </div>
+            <div class="futter">
+                <div class="phone">
+                    <p class="rus">Номер телефона:</p>
+                    <div class="numder"><p class="numder_phone">8-919-899-29-85</p></div>
+                </div>
+                <div class="logo_daun">
+                    <img src="images/logo_fut.png" alt="" class="img_logo_daun">
+                </div>
+            </div>
+        </div>
+        <div class="modal">
+            <div class="modal__main">
+                <h2 class="modal_title">Правильно!</h2>
+                <a href="qr2_task1.html"><button class="modal__try_agan">Далее!</button></a>
+            </div>
+        </div>
+        <div class="modal2">
+            <div class="modal__main2">
+                <h2 class="modal_title">Неправильно</h2>
+                <a href="pass.html"><button class="modal__try_agan">Попробовать снова</button></a>
+            </div>
+        </div>
+    </div> 
+    <script>
+        inp = 'Новый год'; 
+        inp_m ='новый год';
+    </script>
+</body>
+</html>
