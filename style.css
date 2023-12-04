@@ -287,6 +287,7 @@ html,body{
 }
 
 .modal {
+    text-align: center;
     position: fixed;
     inset: 0;
     backdrop-filter: blur(6px);
@@ -327,6 +328,7 @@ html,body{
 }
 
 .modal2 {
+    text-align: center;
     position: fixed;
     inset: 0;
     backdrop-filter: blur(6px);
