@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" style="background-color: #1B1B1D;">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="wrapper"> 
+    <div class="wrapper" style="display: flex; flex-direction:column; justify-content: space-between;"> 
         <header class="headder_block">
             <div class="container" style="display: grid;">
                 <div class="logo_info">
@@ -23,44 +23,30 @@
             <div class="container" style="display: contents;">
                 <p class="map_title" >Карта</p>
                 
-                <img src="images/Screenshot_3.jpg" alt="" class="map_block" style="border: 0px; border-radius: 0px; margin:-30px 0 0 0">
+                <img src="images/Screenshot_7.jpg" alt="" class="map_block" style="border: 0px; border-radius: 0px; margin:-30px 0 0 0">
                 
-                <div class="main_tasks" style=" height: 350px;">
-                    <div class="main_task_title"><p class="task_title_title">Задание 3</p></div>
-                    <div class="block_text_">
-                        <p class="text_title">
-                            Традиционно испанцы встречают Новый год, съедая 12 штук чего? <br><br>
-                            &#8226 Сардин <br>
-                            &#8226 Виноградин <br>
-                            &#8226 Сосисок
+                <div class="main_tasks" style="padding: 0 5px; height: 280px; display: grid; align-items: center; justify-content: center;">
+                    <div class="block_text_" style="padding: 0;">
+                        <p class="text_title">    
+                            Что то нужно прикольное написать)
                         </p>
-                    </div>
-                    <div class="input_phone" style="margin: 31px 0 0 0;">
-                        <input type="text" name="phonee" placeholder="Введите текст..." class="input_phone_txt" id="input_phone_text">
                     </div>
                 </div>
             </div>
         </main>
         <div class="progres_bar">
-            <div class="container">
+            <div class="container" style="padding: 0 0 25px 0 ;">
                 <div class="progres_bar_qrs">
-                    <div class="task1" style="background-color: #00FFD1;"></div>
-                    <div class="task2" style="background-color: #00FFD1;"></div>
-                    <div class="task3" style="background-color: #00FFD1;"></div>
-                    <div class="task4"></div>
-                    <div class="task5"></div>
+                    <div class="task1" style="background-color: #00FFD1; width: 100%;"></div>
                 </div>
                 <div class="full_prograee_bar">
                     <div class="home"></div>
                     <div class="qr1" style="background: linear-gradient(90deg, #0075FF 100%, #0075FF 30%, rgb(255, 255, 255) 20%);"></div>
-                    <div class="qr2" style="background: linear-gradient(90deg, #0075FF 60%, #0075FF 30%, rgb(255, 255, 255) 20%);"></div>
-                    <div class="qr3"></div>
-                    <div class="qr4"></div>
-                    <div class="qr5"></div>
-                    <div class="final"></div>
-                </div>
-                <div class="button_go">
-                    <button class="go" id="go1">Проверить</button>
+                    <div class="qr2" style="background: linear-gradient(90deg, #0075FF 100%, #0075FF 30%, rgb(255, 255, 255) 20%);"></div>
+                    <div class="qr3" style="background: linear-gradient(90deg, #0075FF 100%, #0075FF 30%, rgb(255, 255, 255) 20%);"></div>
+                    <div class="qr4" style="background: linear-gradient(90deg, #0075FF 100%, #0075FF 30%, rgb(255, 255, 255) 20%);"></div>
+                    <div class="qr5" style="background: linear-gradient(90deg, #0075FF 100%, #0075FF 30%, rgb(255, 255, 255) 20%);"></div>
+                    <div class="final" style="background: linear-gradient(90deg, #FFF500 100%, #0075FF 30%, rgb(255, 255, 255) 20%);"></div>
                 </div>
             </div>
             <div class="futter">
@@ -76,19 +62,19 @@
         <div class="modal">
             <div class="modal__main">
                 <h2 class="modal_title">Правильно!</h2>
-                <a href="qr2_task4.html"><button class="modal__try_agan">Далее!</button></a>
+                <p class="numder_phone">следующий код на кабинете с номером как ответ на это задание</p>
             </div>
         </div>
         <div class="modal2">
             <div class="modal__main2">
                 <h2 class="modal_title">Неправильно</h2>
-                <a href="qr2_task3.html"><button class="modal__try_agan">Попробовать снова</button></a>
+                <a href="qr3_task1.html"><button class="modal__try_agan">Попробовать снова</button></a>
             </div>
         </div>
     </div> 
     <script>
-        inp = 'Виноградин'; 
-        inp_m ='виноградин';
+        inp = '1'; 
+        inp_m ='1 ';
     </script>
 </body>
 </html>

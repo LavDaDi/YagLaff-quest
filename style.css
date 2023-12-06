@@ -347,6 +347,11 @@ html,body{
     padding: 20px;
     cursor: default;
 }
+
+.img_task{
+    margin:20px 0 0 0 ;
+    max-width: 280px;
+}
 /**Cетка адаптива**/
 
 @media(max-width: 530px){
@@ -367,10 +372,11 @@ html,body{
 
     .main_block{
         gap: 40px;
-        padding: 40px 0 22px 0;
+        padding: 20px 0 22px 0;
     }
 
     .main_tasks{
+        padding: 31px 20px 0 31px;;
         width: 345px;
         height: 298px;
     }
